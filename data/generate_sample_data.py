@@ -27,6 +27,7 @@ fake = Faker()
 
 # Database configuration
 DATABASE_URL = os.getenv('DATABASE_URL')
+print(DATABASE_URL)
 
 if not DATABASE_URL:
     print("ERROR: DATABASE_URL not found in environment variables")

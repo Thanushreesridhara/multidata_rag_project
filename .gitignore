@@ -26,6 +26,7 @@ MANIFEST
 venv/
 ENV/
 env/
+multi/
 
 # UV lock file (not needed in repo, dependencies defined in requirements.txt)
 uv.lock
